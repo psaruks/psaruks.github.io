@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Hello, its me!</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<style>
+    html {
+        height: 100%;
+    }
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size:16px;
+        height: 100%;
+    }
+    h1 {
+        font-size: 72px;
+        -webkit-margin-before: 0.25em;
+        -webkit-margin-after: 0.25em;
+    }
+    a {
+        text-decoration: none;
+        color:#000;
+        transition:.3s;
+    }
+    a:hover {
+        color: #857777;
+        transition:.3s;
+    }
+    ul {
+        -webkit-padding-start: 0px;
+    }
+    .center {
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+    }
+    .center .center--text a {
+        text-decoration: none;
+        background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .center .center--links ul{
+        list-style-type: none;
+        display:flex;
+        flex-direction:row;
+    }
+    .center .center--links ul li {
+        padding:0 15px;
+    }
+    .center .center--links ul li > a > i {
+        margin-right:5px;
+    }
+</style>
+<body>
+    <div class="center">
+        <div class="center--text">
+            <h1><a href="#">Psaruks.me</a></h1>
+        </div>
+        <div class="center--links">
+            <ul>
+                <li><a href="https://vk.com/psaruks" target="_blank"><i class="fab fa-vk"></i>VK</a></li>
+                <li><a href="https://github.com/killro" target="_blank"><i class="fab fa-github"></i>Github</a></li>
+                <li><a href="tg://resolve?domain=killro"><i class="fab fa-telegram"></i>Telegram</a></li>
+                <li><a href="https://renarp.com/" target="_blank"><i class="fas fa-briefcase"></i>Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
